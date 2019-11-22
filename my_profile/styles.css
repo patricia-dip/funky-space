@@ -1,0 +1,296 @@
+body {font-family: 'Roboto', sans-serif;}
+
+h1 {font-family: 'Roboto', sans-serif;
+	font-size: 16.5px; 
+	letter-spacing: 2.5px;}
+
+h2 {font-family: 'Roboto', sans-serif;
+	font-size: 10px;
+	letter-spacing: 0.4px}
+
+h3 {font-size: 12px;
+	font-weight: thin}
+
+h4 {font-size: 11px;}
+
+p {font-size: 10px}
+
+
+
+.top_bar {
+	height: 90px;
+	margin-top: 35px;
+	}
+
+.header {
+	position: relative;
+	text-align: center;
+	display: block;
+	line-height: 25px;
+	}
+
+.subheader {
+	position: relative;
+	text-align: center;
+	display: block;
+	line-height: 7px;
+	margin-top: 20px;
+	}
+
+.link {
+	font-size: 10px;
+	font-weight: 12px;
+	color: black;
+	position: relative;
+	text-align: center;
+	line-height: 10px;
+	margin-top: 22px;
+	}
+
+a:link, a:visited {
+  	background-color: black;
+  	color: white;
+  	padding: 3px 25px;
+  	text-align: center;
+  	text-decoration: none;
+  	display: inline-block;
+	}
+
+a:hover, a:active {
+  background-color: white;
+  color: black;
+	}
+
+.centered {
+	width: 50%;
+	margin: 0 27%;
+	}
+
+.container {
+	width: 200px;
+	padding: 20px;
+	margin-top: 50px
+	}
+
+.content {
+	text-align: left;
+	padding: 10px;
+	border-bottom: 2px;
+	border-color: black;
+	}
+
+.icons {
+	position: absolute;
+	margin-top: -90px;
+	margin-left: 425px;
+	z-index: 950;
+	}
+
+.icons img {
+	margin: -10px 8px;
+	}
+
+.card {
+	display: block;
+	position: relative;
+	height: 40px;
+	width:	500px;
+	background: #f0d3ff;
+	margin: -5px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	text-align: justify;
+	z-index: 900
+	}
+
+
+.container2 {
+	width: 200px;
+	padding: 20px;
+	margin-top: 50px
+	margin-bottom: -20px;
+	}
+
+
+.card2 {
+	display: block;
+	position: relative;
+	height: 10px;
+	width:	500px;
+	background: #ffee35;
+	margin: 0px;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	text-align: justify;
+	z-index: 900}
+
+.date {
+	position: absolute;
+	text-align: left;
+	margin-top: -55px;
+	padding-left: 40px;
+	z-index: 950}
+
+
+.subcard2 {
+	display: block;
+	position: relative;
+	height: 10px;
+	width:	500px;
+	background: #eaeaea;
+	margin: -5px;
+	margin-left: 20px;
+	margin-bottom: 20px;
+	padding: 20px;
+	text-align: justify;
+	z-index: 900
+	}
+
+.subdate2 {
+	position: absolute;
+	text-align: left;
+	margin-top: -75px;
+	padding-left: 40px;
+	z-index: 950
+	}
+
+
+.container3 {
+	width: 200px;
+	padding-left: 20px;
+	padding-right: 20px;
+	margin-top: -10px
+	}
+
+.subcard3 {
+	display: block;
+	position: relative;
+	height: 10px;
+	width:	500px;
+	background: #eaeaea;
+	margin-top: 20px;
+	margin-left: 20px;
+	padding: 20px;
+	text-align: justify;
+	z-index: 900
+	}
+
+.subdate3 {
+	position: absolute;
+	text-align: left;
+	margin-top: -65px;
+	margin-left: 20px;
+	padding-left: 20px;
+	z-index: 950
+	}
+
+.flex_container1 {
+	width: 490px;
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: flex-start;
+	padding: 10px 20px 20px 20px;
+	}
+
+.headline {
+	text-align: left;
+	margin-top: 10px;
+	width:175px;
+	text-align: bottom;
+	box-shadow: 10px 10px 0 green;
+	z-index: 2;
+	}
+
+.marker {
+	display: block;
+	position: relative;
+	height: 15px;
+	width:	100px;
+	background: #84ffa1;
+	margin-top: -15px;
+	margin-left: -10px;
+	z-index: -2;
+	}
+
+
+.subject {
+	line-height: 0.2px;
+	margin-top: -10px;
+	margin-left: 15px;
+	}
+
+.company {
+	line-height: 20px;
+	margin-top: -10px;
+	margin-left: 10px;
+	}
+
+.date2 {
+	position: absolute;
+	text-align: center;
+	margin-top: -35px;
+	padding-left: 43px;
+	z-index: 950
+	}
+
+.block1 {
+	display: block;
+	height: 50px;
+	width:	115px;
+	background: #eaeaea;
+	margin-left: 25px;
+	margin-bottom: 20px;
+	margin-top: -25px;
+	padding: 20px;
+	text-align: left;
+	z-index: 900
+	}
+
+.final_container {
+	width: 200px;
+	padding: 20px;
+	margin-top: 20px;
+	margin-bottom: 20px}
+
+
+.scrollmenu {
+ 	overflow: auto;
+ 	white-space: nowrap;
+  	margin-top: 20px;
+ 	width: 590px;
+ 	padding: 10px;
+	}
+
+.scrollmenu img {
+	margin: -10px 6px;
+	}
+
+.arrow {
+	position: absolute;
+	margin-left: 450px;
+	margin-top: 20px;
+	z-index: 900;
+	transform: scale(0.15) rotate(-90deg);
+	}
+
+.goodbye {
+	text-align: center;
+	width: 92%;
+	margin-top: 30px;
+	margin-bottom: 10px;
+	color: black;
+	}
+
+.goodbye:hover {
+	transform: scale(1.5)
+	}
+
+.closing_link {
+	text-align: center;
+	width: 92%;
+	margin-bottom: 70px;
+	font-size: 10px;
+	}
